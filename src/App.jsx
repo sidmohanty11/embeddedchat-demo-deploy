@@ -14,8 +14,9 @@ function App() {
         GOOGLE_CLIENT_ID={import.meta.env.VITE_GOOGLE_CLIENT_ID}
         host={import.meta.env.VITE_ROCKETCHAT_HOST}
         roomId={import.meta.env.VITE_ROCKETCHAT_ROOM_ID}
-        channelName="GENERAL"
+        channelName="general"
         anonymousMode={true}
+        headerColor='#F5455C'
       />
     </div>
   );
